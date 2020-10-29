@@ -16,18 +16,54 @@ const Home = () => {
         {/* product showcase homepage in rows */}
         {/* first row */}
         <div className="home__row">
-          <Product />
-          <Product />
+          <Product
+            id="111"
+            title="something"
+            price={420.69}
+            image="https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80"
+            rating={4}
+          />
+          <Product
+            id="111"
+            title="something"
+            price={420.69}
+            image="https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80"
+            rating={4}
+          />
         </div>
         {/* second row */}
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            id="111"
+            title="something"
+            price={420.69}
+            image="https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80"
+            rating={4}
+          />
+          <Product
+            id="111"
+            title="something"
+            price={420.69}
+            image="https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80"
+            rating={4}
+          />
+          <Product
+            id="111"
+            title="something"
+            price={420.69}
+            image="https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80"
+            rating={4}
+          />
         </div>
         {/* third row */}
         <div className="home__row">
-          <Product />
+          <Product
+            id="111"
+            title="something"
+            price={420.69}
+            image="https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=984&q=80"
+            rating={4}
+          />
         </div>
       </div>
     </div>
